@@ -1,0 +1,26 @@
+.navbar{
+    padding: 0px 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(220, 184, 184);
+    min-height: 10vh;
+}
+.navbar ul{
+    list-style-type: none;
+    gap: 0px 20px;
+    align-items: center;
+    display: flex;
+
+}
+.navbar > div:nth-of-type(1) ul {
+    display: flex;
+    gap: 0px 15vh;
+}
+.navbar button{
+    font-size: medium;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 2px solid rgb(85, 51, 57);
+
+}
