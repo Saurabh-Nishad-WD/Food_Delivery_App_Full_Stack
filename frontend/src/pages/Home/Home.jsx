@@ -3,7 +3,7 @@ import "./Home.css"
 import Header from '../../components/Navbar/Header/Header'
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
       <Header/>
     </div>
   )

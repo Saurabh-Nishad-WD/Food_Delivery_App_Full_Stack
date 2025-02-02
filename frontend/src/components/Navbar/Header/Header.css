@@ -1,0 +1,19 @@
+.header {
+    background-image: url('../../../assets/frontend_assets/header_img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    text-align: center; /* Centers the text */
+    flex-direction: column; /* Stack items in a column */
+    color: white; /* White text for contrast */
+    padding: 20px; /* Optional for spacing */
+  }
+  
+  .header h1, .header p {
+    margin: 10px 0; /* Adds space between h1 and p */
+  }
+  
