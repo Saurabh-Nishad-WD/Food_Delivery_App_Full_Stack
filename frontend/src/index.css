@@ -13,3 +13,12 @@ a{
   text-decoration: none;
   columns: inherit;
 }
+
+@keyframes FadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
