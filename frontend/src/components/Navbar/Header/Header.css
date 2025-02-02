@@ -10,15 +10,16 @@
   flex-direction: column;
   color: white;
   border-radius: 20px;
-  margin-top: 5vh;
+  margin-top: 15vh;
   padding-top: 15vh;
   padding-left: 4vh;
   gap: 2vh;
-  animation: FadeIn 1s;
+  animation: FadeIn .5s ease;
 }
 
 .header h1,.header p {
   margin: 10px 0;
+  animation: FadeIn 2s;
 }
 .header p {
     width: 80vh;
@@ -38,6 +39,7 @@
     width: 30vh;
     font-size: medium;
     height: 7vh;
+    animation: FadeIn 2s;
 }
 .header button:hover{
     cursor: pointer;

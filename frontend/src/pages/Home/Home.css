@@ -1,5 +1,13 @@
-.home{
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.exploreMenu {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: start;
 }
