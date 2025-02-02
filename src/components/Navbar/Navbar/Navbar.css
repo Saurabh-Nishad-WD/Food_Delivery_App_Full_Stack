@@ -1,11 +1,13 @@
 .navbar{
+    position: fixed;
+    width: 100%;
     padding: 0px 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(220, 184, 184);
     min-height: 10vh;
-    animation: FadeIn 1s;
+    animation: FadeIn .5s ease;
 }
 .navbar ul{
     list-style-type: none;
