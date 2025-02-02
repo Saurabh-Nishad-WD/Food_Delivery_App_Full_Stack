@@ -5,6 +5,7 @@
     align-items: center;
     background-color: rgb(220, 184, 184);
     min-height: 10vh;
+    animation: FadeIn 1s;
 }
 .navbar ul{
     list-style-type: none;

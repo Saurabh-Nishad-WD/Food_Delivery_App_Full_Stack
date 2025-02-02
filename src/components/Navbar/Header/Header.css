@@ -1,19 +1,46 @@
+
 .header {
-    background-image: url('../../../assets/frontend_assets/header_img.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
-    display: flex; /* Enables flexbox */
-    justify-content: center; /* Horizontally centers the content */
-    align-items: center; /* Vertically centers the content */
-    text-align: center; /* Centers the text */
-    flex-direction: column; /* Stack items in a column */
-    color: white; /* White text for contrast */
-    padding: 20px; /* Optional for spacing */
-  }
-  
-  .header h1, .header p {
-    margin: 10px 0; /* Adds space between h1 and p */
-  }
-  
+  background-image: url("../../../assets/frontend_assets/header_img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 200vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 20px;
+  margin-top: 5vh;
+  padding-top: 15vh;
+  padding-left: 4vh;
+  gap: 2vh;
+  animation: FadeIn 1s;
+}
+
+.header h1,.header p {
+  margin: 10px 0;
+}
+.header p {
+    width: 80vh;
+  font-size: 3vh;
+}
+.header h1 {
+    width: 100vh;
+  font-size: 7vh;
+}
+
+.header button{
+    font-family: 'Funnel Sans', sans-serif;
+    border-radius: 40px;
+    border: 2px solid tomato;
+    background-color: rgb(233, 203, 163);
+    margin-left: 0;
+    width: 30vh;
+    font-size: medium;
+    height: 7vh;
+}
+.header button:hover{
+    cursor: pointer;
+    background-color: rgb(236, 120, 12);
+    border: 2px solid rgb(0, 0, 0);
+}
