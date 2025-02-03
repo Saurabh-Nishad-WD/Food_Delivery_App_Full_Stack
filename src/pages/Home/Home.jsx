@@ -1,16 +1,18 @@
-import React from 'react'
-import "./Home.css"
-import Header from '../../components/Navbar/Header/Header'
-import ExploreMenu from '../../components/exploreMenu/ExploreMenu'
+import React from "react";
+import "./Home.css";
+import Header from "../../components/Header/Header";
+import ExploreMenu from "../../components/exploreMenu/ExploreMenu";
 const Home = () => {
   return (
-    <div className='home'>
-      <Header className="header"/>
-     <div className="exploreMenu">
-     <ExploreMenu />
-     </div>
+    <div className="home">
+       <div className="header-container">
+        <Header />
+      </div>
+      <div className="exploreMenu">
+        <ExploreMenu />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
