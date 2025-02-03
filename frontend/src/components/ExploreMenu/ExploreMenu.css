@@ -1,4 +1,23 @@
-.menu-item{
-    text-align: start;
-    left: 0px;
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x:  scroll;
+}
+.container{
+    width: 100%;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
 }
